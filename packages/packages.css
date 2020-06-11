@@ -1,0 +1,58 @@
+
+.packages{
+    background:lightblue;
+    width:60%;
+    padding:30px;
+    margin:30px 0;
+    border: 2px solid black;
+    border-left:none
+}
+
+.packages a{
+    text-decoration: none;
+    display: block;
+}
+
+.package__title{
+    color:black;
+}
+
+.package__description{
+    color:gray
+}
+
+#plus{
+    background: rgba(0, 128, 6, 0.548);
+}
+
+#free{
+    background:rgba(0, 128, 6, 0.178) ;
+}
+
+#premium{
+    background:rgba(0, 128, 6, 0.746) ;
+}
+
+.package__benefits{
+    background: white;
+    padding:8px;
+    color:lightgrey;
+    border:2px black solid;
+}
+
+#premium .package__title{
+   color:white
+}
+
+#premium .package__description{
+    color:black;
+}
+
+#premium .package__benefits{
+    color:black;
+}
+
+.packages:hover,
+.packages:active{
+    box-shadow:2px 2px 2px 2px red;
+}

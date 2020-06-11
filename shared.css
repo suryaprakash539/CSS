@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+}
+.button{
+    background:#0e4f1f;
+    color:white;
+    font:inherit;
+    padding:8px;
+    border:1.5px solid #0e4f1f ;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover,
+.button:active{
+    background: white;
+    color:#0e4f1f;
+}
+
+.button:focus{
+    outline: none;
+}
+
+#key-features{
+    background: #ff1b68;
+    margin-top:80px;
+    padding:16px;
+}
+
+#key-features .section-title{
+    color:white;
+    margin:32px;
+}
+
+.key-feature__list{
+    list-style: none;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.key-feature{
+    display: inline-block;
+    width:30%;  
+    vertical-align: top;
+}
+
+.key-feature__image{
+    background: white;
+    height: 128px;
+    width:128px;
+    border:2px solid black;
+    border-radius: 50%;
+    margin:auto;
+}
+
+.key-feature__description{
+    font-weight: bold;
+    font-size:20px;
+    color:white;  
+    text-align:center;  
+}
+
+.section-title{
+    color:#2ddf5c;
+    text-align:center;
+}
+
+#product-overview h1{
+   color:white;
+   font-family: 'Anton', sans-serif;
+}
+
+.main-header{
+    background:#2ddf5c;
+    padding:8px 16px;
+    width:100%;
+}
+
+.main-header > div{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand{
+    font-weight: bold;
+    font-size:22px;
+    text-decoration: none;
+}
+.main-nav{
+    display: inline-block;
+    text-align:right;
+    width:calc(100% - 74px);
+    vertical-align: middle;
+ }
+ 
+ .main-nav__items{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    
+ }
+ 
+ .main-nav__item {
+     display:inline-block;
+     margin:0 16px;
+ }
+ 
+ .main-nav__item a{
+     text-decoration:none;
+     color:#0e4f1f;
+     padding:2px 0;
+ }
+ 
+ .main-nav__item a:hover,
+ .main-nav__item a:active{
+     color:white;
+     border-bottom: 5px solid white;
+ }
+ 
+ .main-nav__item--cta a{
+     background:#ff1b68;
+     padding:8px 16px;
+     border-radius:8px;
+ }
+ 
+ .main-nav__item--cta a:hover,
+ .main-nav__item--cta a:active{
+     background:white;
+      color:#ff1b68;
+      border:none;
+ }
+ 
+ 
+.main-footer{
+    background:black;
+    padding:32px;
+    margin-top:48px;
+}
+
+.main-footer__links{
+    list-style: none;
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+
+.main-footer__link{
+    display: inline-block;
+    margin:0 16px;
+}
+
+.main-footer__link a{
+    text-decoration: none;
+    color:white
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active{
+    color:#ccc;
+}
+
