@@ -3,11 +3,11 @@
     <head>
         <title>CSS</title>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         <link rel='stylesheet' href='../shared.css'>
-        <link rel='stylesheet' href='packages.css'>
+        <link rel='stylesheet' href='customers.css'>
     </head>
     <body>
-        <div class='background'></div>
         <header class='main-header'>
             <div>
                 <a href="../index.html" class='main-header__brand'>
@@ -20,7 +20,7 @@
                         <a href="../packages/index.html">Packages</a>
                     </li>
                     <li class='main-nav__item'>
-                        <a href="../customers/index.html">Customers</a>
+                        <a href="index.html">Customers</a>
                     </li>
                     <li class='main-nav__item main-nav__item--cta'>
                         <a href="../start-hosting/index.html">Start Hosting</a>
@@ -29,28 +29,18 @@
             </nav>
         </header>
         <main>
-            <section class='packages' id='plus'>
-                <a href="#">
-                    <h1 class='package__title'>Our Plus Plan</h1>
-                    <h1 class='package__badge'>RECOMMENDED</h1>
-                    <h2 class='package__description'>The most popular choice of our customers.</h2>
-                    <p class='package__benefits'>Benefits from increased storage!</p>
-                </a>
-            </section>
-            <section  class='packages' id='free'>
-                <a href="#">
-                    <h1 class='package__title'>Our Free Plan</h1>
-                    <h2 class='package__description' >An extremely solid start into our hosting world.</h2>
-                    <p class='package__benefits'>Get started immediately at zero cost!</p>
-                </a>
-            </section>
-            <section  class='packages' id='premium'>
-                <a href="#">
-                    <h1  class='package__title'>Our Premium Plan</h1>
-                    <h2 class='package__description'>All your enterprise needs.</h2>
-                    <p class='package__benefits'>The best solution for small to large enterprises!</p>
-                </a>
-            </section>
+            <div class='testimonial' id='customer-1'>
+                <div class='testimonial__image-container'>
+                   <img src='customer.jpg' class='testimonial__image'> 
+                </div>
+                <div class='testimonial__info'>
+                    <h1 class='testimonial__name'>Mike Statham</h1>
+                    <h2 class='testimonial__subtitle'>Founder of 
+                        <a href='tech-analysis.com'>tech-analysis.com</a>
+                    </h2>
+                    <p class='testimonial__text'>UHost helped me acheiving my project</p>
+                </div>
+            </div>
         </main>
         <footer class='main-footer'>
             <nav>
