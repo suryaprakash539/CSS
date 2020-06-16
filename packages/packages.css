@@ -7,15 +7,15 @@ body{
     background-size: cover;
     filter:opacity(0.2);
     position: fixed;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index:-1;
 }
 .packages{
     background:lightblue;
     width:60%;
-    padding:30px;
-    margin:40px 0;
+    padding:1.9rem;
+    margin:2.5rem 0;
     border: 2px solid black;
     border-left:none;
     position:relative;
@@ -32,8 +32,8 @@ body{
     top:10px;
     right:0px;
     background:red;
-    font-size:12px;
-    padding:8px;
+    font-size:0.75rem;
+    padding:0.5rem;
 }
 
 .package__title{
@@ -58,7 +58,7 @@ body{
 
 .package__benefits{
     background: white;
-    padding:8px;
+    padding:0.5rem;
     color:lightgrey;
     border:2px black solid;
 }
