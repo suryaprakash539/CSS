@@ -39,45 +39,6 @@ body{
     outline: none;
 }
 
-#key-features{
-    background: #ff1b68;
-    margin-top:80px;
-    padding:16px;
-}
-
-#key-features .section-title{
-    color:white;
-    margin:32px;
-}
-
-.key-feature__list{
-    list-style: none;
-    margin:0;
-    padding:0;
-    text-align: center;
-}
-
-.key-feature{
-    display: inline-block;
-    width:30%;  
-    vertical-align: top;
-}
-
-.key-feature__image{
-    background: white;
-    height: 128px;
-    width:128px;
-    border:2px solid black;
-    border-radius: 50%;
-    margin:auto;
-}
-
-.key-feature__description{
-    font-weight: bold;
-    font-size:20px;
-    color:white;  
-    text-align:center;  
-}
 
 .section-title{
     color:#2ddf5c;

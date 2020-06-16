@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>CSS</title>
+        <meta name='viewport' content='width=device-width,initial=1.0'>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
         <link rel='stylesheet' href='../shared.css'>
@@ -11,6 +12,11 @@
         <div class='backdrop'></div>
         <header class='main-header'>
             <div>
+                <button class='toggle-button'>
+                    <span class='toggle-button__bar'></span>
+                    <span class='toggle-button__bar'></span>
+                    <span class='toggle-button__bar'></span>
+                </button>
                 <a href="../index.html" class='main-header__brand'>
                     uHost
                 </a>
@@ -29,6 +35,19 @@
                 </ul>
             </nav>
         </header>
+        <nav class='mobile-nav'>
+            <ul class='mobile-nav__items'>
+                <li class='mobile-nav__item'>
+                    <a href='../packages/index.html'>Packages</a>
+                </li>
+                <li class='mobile-nav__item'>
+                    <a href='index.html'>Customers</a>
+                </li>
+                <li class='mobile-nav__item mobile-nav__item--cta'>
+                    <a href='../start-hosting/index.html'>Start Hosting</a>
+                </li>
+            </ul>
+        </nav>
         <main>
             <div class='testimonial' id='customer-1'>
                 <div class='testimonial__image-container'>
@@ -55,5 +74,6 @@
                 </ul>
             </nav>
         </footer>
+        <script src='../shared.js'></script>
     </body>
 </html>
